@@ -22,4 +22,14 @@ root.render(
     <h1>React Course</h1>
     <p>We will learn react in this course.</p>
   </div>
-);
+); // JSX syntax
+/*
+root.render(
+  React.createElement(
+    "div",
+    null,
+    React.createElement("h1", null, "React Course"),
+    React.createElement("p", null, "We will learn react in this course.")
+  )
+); // What Babel does behind scene is taking the JSX syntax and turn it to this code
+*/
